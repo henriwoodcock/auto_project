@@ -1,6 +1,24 @@
 # auto_project
 Automatically create a repository with all necessary files and folders then create the initial commit.
 
+## Description
+Creates a new repository with the following structure:
+```
+├── README.md
+├── REPOSITORYNAME
+├── data
+│   ├── raw
+│   ├── processed
+├── notebooks
+├── requirements.txt
+├── setup.py
+```
+## Useage
+Open a terminal and type:
+```
+auto_project REPOSITORYNAME
+```
+
 ## Setup
 Make sure you have git installed.
 
@@ -46,3 +64,17 @@ Add the follow lines into your .bashrc:
 source ~/.my_commands.sh
 ```
 This adds the command so it can be ran from your terminal
+
+## Test if .bash_profile and .bashrc are working
+Add the follow lines to the top of your .bashrc:
+```
+ECHO '.bashrc opened'
+```
+Add the follow lines to the top of your .bash_profile:
+```
+ECHO '.bash_profile opened'
+```
+If the two files are setup correctly, when a terminal is opened the following should be returned:
+```
+.bash_profile opened
+.bashrc opened
