@@ -24,7 +24,7 @@ else
 fi
 ```
 
-#### .my_commands.sh:
+### .my_commands.sh:
 Download .my_commands into your home directory so you have ~/.my_commands.sh. Change the following line in the .my_commands.sh files:
 ```sh
 cd PATH
