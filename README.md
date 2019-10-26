@@ -8,10 +8,10 @@ Creates a new repository with the following structure:
 ├── REPOSITORYNAME
 ├── data
 │   ├── raw
-│   ├── processed
+│   └── processed
 ├── notebooks
 ├── requirements.txt
-├── setup.py
+└── setup.py
 ```
 ## Useage
 Open a terminal and type:
